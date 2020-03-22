@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- En-tête de la page -->
+    <meta charset="utf-8" />
+    <!-- C'est l'encodage de mon site -->
+    <meta name='keywords' content="SNT, informatique" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <!--import des styles en .css-->
+    <title>S.N.T.</title>
+    <!--C'est le titre de la page (écrit en haut de l'onglet du navigateur) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="javascript/continuitePedagogique.js"></script>
+</head>
+
+<header>
+    <span id="voirCompteur">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <p id="counter"></p>
+    <h2>Continuité pédagogique en SNT</h2>
+</header>
+
+<body>
+    <p>Ce site reprend ce qui est présent sur l'ENT <a href="http://lyceeconnecte.fr" target="_blank">lyceeconnecte</a></p>
+    <p>Il permet d'accéder facilement au cours, l'accessibilité à l'ENT risquant d'être mise à dure épreuve suite au nombre très important de connexions.</p>
+    <p>Mettez l'adresse de ce site dans vos favoris, pour y accéder directement.</p>
+    <!--J'ai trouvé le bandeau de navigation ici :
+      https://www.pierre-giraud.com/html-css-apprendre-coder-cours/creation-menu-deroulant/
+       -->
+    <nav>
+        <ul>
+            <li class="deroulant"><a href="#" id="navinfoEmbarquee">Informatique embarquée &ensp;</a>
+                <ul class="sous">
+                    <li id="navMateriels"><a href="#">Différents matériels</a></li>
+                    <li id="navHistoire"><a href="#">Histoire</a></li>
+                    <li id="navObjets"><a href="#">Internet des objets</a></li>
+                    <li id="navWaze"><a href="#">Application Waze</a></li>
+                </ul>
+            </li>
+            <!---<li class="deroulant"><a href="#" id="navtuplesListes">tuples et listes &ensp;</a>
+                <ul class="sous">
+                    <li id="navtuples"><a href="#">tuples</a></li>
+                    <li id="navlistes"><a href="#">listes</a></li>
+                </ul>
+            </li>
+            <li class="deroulant"><a href="#" id="navdictionnaires">dictionnaires &ensp;</a>
+                <ul class="sous">
+                    <li id="navdicos"><a href="#">Utilisation</a></li>
+                    <li id="navdonnees"><a href="#">Fichier de données</a></li>
+                </ul>
+            </li>
+            <li class="deroulant"><a href="#" id="navimagesExemples">Exemples en image &ensp;</a>-->
+            <!--<ul class="sous">
+              <li id="navimagesVariables"><a href="#">variables</a></li>
+              <li id="navimagesBoucles"><a href="#">boucles</a></li>
+              <li id="navimagesConditions"><a href="#">conditions</a></li>
+              <li id="navimagesTuples"><a href="#">tuples</a></li>
+              <li id="navimagesListes"><a href="#">listes</a></li>
+            </ul>-->
+            </li>
+        </ul>
+    </nav>
+
+    <div id='infoEmbarquee'>
+        <h1 id="Introduction">Chapitre V - Informatique embarquée</h1>
+
+        <div id="Materiels">
+            <h2>I - b) Différents matériels</h2>
+            <p>Le fichier suivant est une poursuite du cours : <a href="documents/differentsMateriels.pdf" target="_blank">fichier</a></p>
+            <p><strong>À faire le mardi 24 mars :</strong></p>
+            <p>Sur la dernière page, on vous demande de compléter un tableau. Le faire sur un traitement de texte (privilégiez LibreOffice ou OpenOffice à Word) - vous n'êtes pas obligés de présenter sous la forme d'un tableau, c'est à vous de voir.</p>
+            <p>Dans cette classification, le smartphone appartient finalement à deux colonnes différentes. <strong>Expliquer quelle(s) utilisation(s) permet(tent) de le classer dans chacune de ces colonnes (se servir des définitions)</strong>.</p>
+        </div>
+        <div id="Histoire">
+            <h2>Un peu d'histoire</h2>
+            <p>Voici la suite du cours (c'est une partie que je présente dans chaque chapitre) : <a href="documents/histoireInfoEmbarquee.pdf" target="_blank">II - Un peu d'hitoire</a></p>
+        </div>
+        <div id="Objets">
+            <h2>L'Internet des objets</h2>
+            <p>Voici la suite du cours : <a href="documents/internetObjets.pdf" target="_blank">internet des objets</a></p>
+            <p><strong>À faire le mardi 24 mars :</strong></p>
+            <p>Répondre sur un fichier traitement de texte aux questions suivantes : <a href="documents/questsInternetObjets.pdf" target="_blank">questionnaire</a></p>
+            <p>Les réponses pourront s'appuyer (et c'est même conseillé° sur les deux documents suivants :</p>
+            <p>Pour définir la domotique, on peut regarder <a href="https://www.youtube.com/watch?v=DOECi_ZKaYI" target="_blank">cette vidéo</a>.</p>
+            <img src="images/technoConnexionSansFil.jpg" />
+            <img src="images/porteeDebit.jpg" />
+        </div>
+        <div id="Waze">
+            <h2>analyse de l'application Waze</h2>
+            <p><strong>À faire pour le mardi 31 mars :</strong></p>
+            <p>Waze est une application de guidage GPS. Regarder <a href="https://goo.gl/59SwN8" target="_blank">la vidéo </a> et répondre aux questions du <a href="documents/2019_SNT_05_questionsWaze.pdf" target="_blank">document en lien</a>.</p>
+            <p>Pour répondre, le faire de nouveau sur un traitement de texte (ne recopier que les réponses qui vous sembles bonnes pour les questions 1 et 2°.</p>
+        </div>
+
+
+</body>
+
+</html>
