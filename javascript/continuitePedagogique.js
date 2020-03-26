@@ -36,10 +36,10 @@ function initialization() {
     for (prop in contenuDiv) {
         document.getElementById("nav" + String(prop)).onclick = function() {
             let idtexte = this.id.substring(3); //L'id du menu est de la forme nav... donc j'enlève les 3 premiers caractères
-            document.getElementById("divConteneur").innerHTML = contenuDiv[idtexte];
-            if (idtexte === "imagesExemples") {
-                actionBtns(); //JE remets les actions sur les boutons
-            }
+            document.getElementById("divConteneur").innerHTML = contenuDiv[idtexte]
+            let tmp = document.querySelector('footer')
+            document.querySelector('body').removeChild(tmp)
+            document.querySelector('body').appendChild(tmp)
         }
     }
     const counter = document.getElementById("counter")
