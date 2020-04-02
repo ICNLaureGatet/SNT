@@ -1,8 +1,9 @@
-let listeChap = ["infoEmbarquee"];
+let listeChap = ["infoEmbarquee", "reseauxSociaux"];
 let listeSousPartie = [
-    ["Materiels", "Histoire", "Objets", "Waze"]
-];
-let contenuDiv = {}; //j'en fais un objet plutôt qu'une liste
+    ["Materiels", "Histoire", "Objets", "Waze"],
+    ["donnees", "amis"]
+]
+let contenuDiv = {} //j'en fais un objet plutôt qu'une liste
 
 
 function initialization() {
@@ -30,7 +31,7 @@ function initialization() {
     //Je crée enfin une div qui accueillera le contenu de ce qui sera affiché
     let newDiv = document.createElement('div');
     newDiv.id = "divConteneur";
-    document.body.appendChild(newDiv);
+    document.body.appendChild(newDiv)
 
     //gestion du clic sur un bouton
     for (prop in contenuDiv) {
