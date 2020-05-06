@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- En-tête de la page -->
+    <meta charset="utf-8" />
+    <!-- C'est l'encodage de mon site -->
+    <title>SNT</title>
+    <!--C'est le titre de la page (écrit en haut de l'onglet du navigateur) -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+
+<body>
+    <!-- Corps de la page -->
+    <h1>Le Web</h1>
+    <h2>fichier HTML</h2>
+    <div class="partie">
+        <p class="paraCentre"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="imahe HTML5"></p>
+        <p>Le langage HTML structure des pages Web à l'aide de <strong>balises</strong>.</p>
+        <ul>
+            <li>des balises de type bloc après lesquels on a un retour à la ligne et un interligne;<br/> par exemple <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, ... (pour les titres), <code>&lt;p&gt;</code> (pour les paragraphes), <code>&lt;div&gt;</code>                (pour regrouper certains blocs), <code>&lt;ul&gt;</code> ou <code>&lt;ol&gt;</code> (pour les listes), <code>&lt;pre&gt;</code> (pour écrire du code informatique) ...</li>
+            <li>des balises de type inline où le contenu est inséré dans la ligne (souvent à l'intérieur d'une balise de type bloc) ;<br/> par exemple <code>&lt;strong&gt;</code> (pour mettre une partie en gras), <code>&lt;i&gt;</code> (pour mettre en italique),
+                <code>&lt;a&gt;</code> (pour mettre un hyperlien),
+                <code>&lt;span&gt;</code> (pour une partie d'une phrase), <code>&lt;code&gt;</code> (pour écrire du code), <code>&lt;img .../&gt;</code> (pour insérer une image), <code>&lt:br/&gt;</code> (pour passer à la ligne dans un paragraphe) - ces
+                deux dernières balises s'emploient cependant différemment car elles n'admettent pas de balise fermante comme les autres, ...</li>
+        </ul>
+        <p id="finHTML">Un fichier <span class="langage">HTML</span> ne contient que le contenu. La mise en forme et le côté dynamique nécessitent d'autres lagages.</p>
+    </div>
+    <h2>fichier CSS</h2>
+    <div>
+        <p>Le langage <span class="langage">CSS</span> permet de mettre en forme notre site.<br/> Il donne des valeurs à certains attributs de balises, de classes (deux éléments d'une même classe seront alors dans le même style) ou d'id (qui permettent d'identifier
+            un élément unique de la page).<br/> Par exemple :</p>
+        <pre>
+html{
+    font-family: "Comic Sans MS";
+    background-color: rgb(199, 210, 221);
+    padding: 5px;
+}
+</pre>
+
+    </div>
+    <h2>fichiers Javascript et Php</h2>
+    <div>
+        <p><span class="langage">Javascript</span> et <span class="langage">Php</span> sont des langages de programmation intégrés dans une page <span class="langage">HTML</span>.</p>
+        <ul>
+            <li>Javascript est interprété par le client (navigateur) et permet de rendre la page dynamique ;</li>
+            <li>Php est sur le serveur du site Web et permet d'interpréter un formulaire de saisie présent sur une page Web.</li>
+        </ul>
+    </div>
+
+    <p><a href="https://icnlauregatet.github.io/SNT" target="_blank">lien vers mon site</a>
+    </p>
+</body>
+
+</html>

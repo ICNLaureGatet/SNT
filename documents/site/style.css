@@ -1,0 +1,75 @@
+html {
+    font-family: "Comic Sans MS", Verdana, sans-serif;
+    background-color: rgb(199, 210, 221);
+    padding: 5px;
+}
+
+body {
+    padding: 15px;
+    color: rgb(29, 48, 58);
+}
+
+h1 {
+    background: border-box rgba(200, 0, 30, 0.7);
+    border-radius: 7px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    border-radius: 7px;
+    box-shadow: -5px 5px teal;
+    background-color: rgba(20, 10, 120, 0.5);
+    text-align: center;
+    font-style: italic;
+}
+
+.paraCentre {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.partie {
+    background: border-box rgba(150, 150, 150, 0.4);
+    padding: 10px;
+}
+
+pre,
+code {
+    /*Utilisé pour tout code */
+    background-color: white;
+    border: dashed black 1px;
+    margin-left: 1px;
+    margin-right: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: bold;
+    font-size: 1.2em;
+}
+
+.langage {
+    /*Je mets en bleu les noms de langages*/
+    color: blue;
+}
+
+div .langage {
+    color: red;
+}
+
+#finHTML {
+    text-decoration: underline;
+}
+
+#finHTML>.langage {
+    color: red;
+}
+
+a:hover {
+    font-size: 2em;
+    background-color: gold;
+}
