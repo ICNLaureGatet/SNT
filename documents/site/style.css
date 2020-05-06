@@ -1,10 +1,10 @@
 html {
     font-family: "Comic Sans MS", Verdana, sans-serif;
-    background-color: rgb(199, 210, 221);
     padding: 5px;
 }
 
 body {
+    background-color: rgb(199, 210, 221);
     padding: 15px;
     color: rgb(29, 48, 58);
 }
@@ -53,20 +53,11 @@ code {
 }
 
 .langage {
-    /*Je mets en bleu les noms de langages*/
     color: blue;
-}
-
-div .langage {
-    color: red;
 }
 
 #finHTML {
     text-decoration: underline;
-}
-
-#finHTML>.langage {
-    color: red;
 }
 
 a:hover {
