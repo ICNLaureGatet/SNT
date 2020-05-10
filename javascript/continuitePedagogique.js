@@ -1,7 +1,8 @@
-let listeChap = ["infoEmbarquee", "reseauxSociaux"];
+let listeChap = ["infoEmbarquee", "reseauxSociaux", "Web"];
 let listeSousPartie = [
     ["Materiels", "Histoire", "Objets", "Waze"],
-    ["donnees", "amis"]
+    ["donnees", "amis"],
+    ["definition", "histoire", "pageWeb", "moteurRecherche"]
 ]
 let contenuDiv = {} //j'en fais un objet plutôt qu'une liste
 
